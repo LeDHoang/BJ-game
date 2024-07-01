@@ -17,16 +17,16 @@ The dataset includes multiple fields from which fields focused on are such as:
 
 ## Models Used
 - **K-Nearest Neighbors (KNN)** running with k in range of (1,20)
- ![KNN Performance](images/screenshot2.png "KNN Performance")
+ ![KNN Performance](image/screenshot2.png "KNN Performance")
 - **Random Forest**
 - **Gradient Boosting**
 - **AdaBoost with RandomForest and DecisionTree (Voting Ensemble)**
-![Feature Heatmap](images/screenshot3.png "Feature Heatmap")
+![Feature Heatmap](image/screenshot3.png "Feature Heatmap")
 
 ## Performance Analysis
 The models' performances were evaluated based on precision, recall, and F1-scores. Adjustments were made using SMOTE to address class imbalance, particularly improving the recall for minority classes.
 The best result was result from **AdaBoost and DecisionTree** which has a weighted F1-Scores of **0.919** and a precision score of **0.922** and with features importance mapped out as 
-![Feature Importance](images/screenshot.png "Feature Importance_AdaBoost and Decision Tree")
+![Feature Importance](image/screenshot.png "Feature Importance_AdaBoost and Decision Tree")
 
 ## Requirements
 - Python 3.8+
